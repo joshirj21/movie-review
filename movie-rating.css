@@ -1,0 +1,46 @@
+#rounded-search{
+    /* border-radius: 30px 30px 30px 30px     //border radius to set search bar pill like, rounded-pill bootstrap class can be used to */
+    width: 393px;
+    border: 1px solid #E3E3E3;
+}
+#rounded-search:focus{
+outline: none;
+border: none;
+box-shadow: none;
+border: 1px solid #E3E3E3;
+}
+#category-search{
+    width: 120px;
+    height: 38px;
+    border-left: 1px solid #E3E3E3;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    border-right: none;
+    border-radius: 30px 0 0 30px;
+    background: white;
+}
+#category-search select{
+    border: none;
+    height: 35px;
+    overflow: hidden;
+    margin-left:15px; 
+}
+#category-search select:focus{
+    outline: none;
+border: none;
+box-shadow: none;
+border: none;
+}
+#rounded-icon{
+    width: 48px;
+    height: 38px;
+    border-right: 1px solid #E3E3E3;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    border-left: none;
+    border-radius: 0 30px 30px 0;
+    background: white;
+}
+.fas.fa-search{
+    color: #000;
+}
